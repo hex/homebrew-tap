@@ -8,7 +8,7 @@ cask "claide" do
   url "https://github.com/hex/Claide/releases/download/v#{version}/Claide-#{version}.dmg"
   name "Claide"
   desc "GPU-accelerated terminal emulator with Metal rendering"
-  homepage "https://github.com/hex/Claide"
+  homepage "https://claide.hexul.com"
 
   depends_on macos: ">= :sonoma"
 
