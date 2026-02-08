@@ -24,8 +24,10 @@ brew install --cask stash
 
 | Name | Description |
 |------|-------------|
+| badger | Command-line tool that adds labels to app icons |
 | mirror-for-photoshop-server | WebSocket relay for Mirror for Photoshop |
 
 ```
+brew install badger
 brew install mirror-for-photoshop-server
 ```
