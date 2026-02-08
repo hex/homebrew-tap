@@ -2,8 +2,8 @@
 # ABOUTME: Auto-updated by CI on each GitHub Release.
 
 cask "claide" do
-  version "2026.2.4"
-  sha256 "f22b2bbebca398c8e61e2d0ec2fd912c02c01c2fc58478682277f7e96abd0be7"
+  version "2026.2.5"
+  sha256 "9f61eeb8e1556d3d8d9e634037c80b3835d7c6ae35405f824c187fc356c070ce"
 
   url "https://github.com/hex/Claide/releases/download/v#{version}/Claide-#{version}.dmg"
   name "Claide"
