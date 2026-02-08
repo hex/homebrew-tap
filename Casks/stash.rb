@@ -5,7 +5,7 @@ cask "stash" do
   url "https://github.com/hex/Stash/releases/download/v#{version}/Stash-#{version}.zip"
   name "Stash"
   desc "Lightweight macOS clipboard history manager"
-  homepage "https://github.com/hex/Stash"
+  homepage "https://stash.hexul.com"
 
   depends_on macos: ">= :sonoma"
 
