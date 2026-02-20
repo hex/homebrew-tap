@@ -12,11 +12,11 @@ brew tap hex/tap
 
 | Name | Description |
 |------|-------------|
-| claide | GPU-accelerated terminal emulator with Metal rendering |
-| stash | Lightweight macOS clipboard history manager |
+| [helix](https://github.com/hex/Helix) | Native macOS menu bar app for managing mutagen file sync sessions |
+| [stash](https://github.com/hex/Stash) | Lightweight macOS clipboard history manager |
 
 ```
-brew install --cask claide
+brew install --cask helix
 brew install --cask stash
 ```
 
@@ -24,9 +24,9 @@ brew install --cask stash
 
 | Name | Description |
 |------|-------------|
-| badger | Command-line tool that adds labels to app icons |
-| iterm2-dimmer | Dims TASKMASTER stop hook output in iTerm2 |
-| mirror-for-photoshop-server | WebSocket relay for Mirror for Photoshop |
+| [badger](https://github.com/hex/badger) | Command-line tool that adds labels to app icons |
+| [iterm2-dimmer](https://github.com/hex/iTerm2-dimmer) | Dims noisy hook output in iTerm2 |
+| [mirror-for-photoshop-server](https://github.com/hex/mirror-for-photoshop-server) | WebSocket relay for Mirror for Photoshop |
 
 ```
 brew install badger
