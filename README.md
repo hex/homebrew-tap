@@ -30,6 +30,6 @@ brew install --cask stash
 
 ```
 brew install badger
-brew install --head iterm2-dimmer
+brew install iterm2-dimmer
 brew install mirror-for-photoshop-server
 ```

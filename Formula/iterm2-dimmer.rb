@@ -1,11 +1,14 @@
 # ABOUTME: Homebrew formula for iterm2-dimmer, dims TASKMASTER output in iTerm2.
-# ABOUTME: HEAD-only until a versioned release is tagged.
+# ABOUTME: Update version, url, and sha256 when cutting a new release.
 
 class Iterm2Dimmer < Formula
+  version "2026.2.0"
   desc "Dims TASKMASTER stop hook output in iTerm2"
   homepage "https://github.com/hex/iterm2-dimmer"
-  head "https://github.com/hex/iterm2-dimmer.git", branch: "main"
+  url "https://github.com/hex/iterm2-dimmer/archive/refs/tags/v2026.2.0.tar.gz"
+  sha256 "6d0bf482376b7304a986f39b173c7087304941c45ecb088cc39d0747ca781e8e"
   license "MIT"
+  head "https://github.com/hex/iterm2-dimmer.git", branch: "main"
 
   depends_on :macos
 
