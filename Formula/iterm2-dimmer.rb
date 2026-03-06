@@ -2,11 +2,11 @@
 # ABOUTME: Update version, url, and sha256 when cutting a new release.
 
 class Iterm2Dimmer < Formula
-  version "2026.3.2"
+  version "2026.3.4"
   desc "Dims TASKMASTER stop hook output in iTerm2"
   homepage "https://github.com/hex/iterm2-dimmer"
-  url "https://github.com/hex/iterm2-dimmer/archive/refs/tags/v2026.3.2.tar.gz"
-  sha256 "039d8a4681f1ebb278542042fbe6b20578f4ada4a5c2328b11f34fa76a713712"
+  url "https://github.com/hex/iterm2-dimmer/archive/refs/tags/2026.3.4.tar.gz"
+  sha256 "06114d2e23ebedb213d835046206c89e0ed50669e1c804b754c47b46c1ff9c29"
   license "MIT"
   head "https://github.com/hex/iterm2-dimmer.git", branch: "main"
 
