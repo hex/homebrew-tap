@@ -45,13 +45,17 @@ class Iterm2Dimmer < Formula
     chmod 0755, bin/"iterm2-dimmer"
   end
 
+  def post_install
+    system bin/"iterm2-dimmer", "install"
+  end
+
   def caveats
     <<~EOS
-      After installing, run:
-        iterm2-dimmer install
-
-      This creates a Python venv and symlinks the scripts into iTerm2.
       Restart iTerm2 to activate the AutoLaunch daemon.
+
+      To uninstall completely:
+        iterm2-dimmer uninstall
+        brew uninstall iterm2-dimmer
     EOS
   end
 
