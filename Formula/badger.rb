@@ -2,30 +2,30 @@
 # ABOUTME: Multi-platform binary distribution (macOS Intel/ARM, Linux).
 
 class Badger < Formula
-  version "2026.3.0"
+  version "2026.3.1"
   desc "Command-line tool that adds labels to your app icon"
   homepage "https://github.com/hex/badger"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hex/badger/releases/download/v2026.3.0/badger-darwin-amd64.zip"
-      sha256 "25bb707d28b24be10dcfdc5c2f8a33d56f6a9fbbc34a6a7b5514a849c7a2a4ec"
+      url "https://github.com/hex/badger/releases/download/v2026.3.1/badger-darwin-amd64.zip"
+      sha256 "5ce7d007936daeaeb4393a579d5850c4fbb009296c79c2a6b162368c38e8531c"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hex/badger/releases/download/v2026.3.0/badger-darwin-arm64.zip"
-      sha256 "0515f20c63d8c07a4a8081d059a3c0956c1fdbc7feb2451119692e09a645c668"
+      url "https://github.com/hex/badger/releases/download/v2026.3.1/badger-darwin-arm64.zip"
+      sha256 "137d477369261a524d7e7a9c1fd37229cb8ab34fb557477bcd3a860ae22e84b7"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/hex/badger/releases/download/v2026.3.0/badger-linux-amd64.zip"
-      sha256 "a8ab6630939936fbc6f0d123fbcc8ec3b98fb0ff86f4cef5fcdc452efbaa59ee"
+      url "https://github.com/hex/badger/releases/download/v2026.3.1/badger-linux-amd64.zip"
+      sha256 "5d1292ddcec8b8a03d7575fa8305e2aa6678e40f8e7bfa209091c8399514826d"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hex/badger/releases/download/v2026.3.0/badger-linux-arm64.zip"
-      sha256 "fd4733bf13e5bcfdbbbab3b2a77699b2b332b09a0d3f466bb543536bc10f1e54"
+      url "https://github.com/hex/badger/releases/download/v2026.3.1/badger-linux-arm64.zip"
+      sha256 "c9403202bc37d570e213b3967946f1041675ddd7bd9826a2e326cddbbdd16bf2"
     end
   end
 
