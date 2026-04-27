@@ -7,7 +7,7 @@ cask "stash" do
   desc "Lightweight macOS clipboard history manager"
   homepage "https://stash.hexul.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: ">= :sequoia"
 
   app "Stash.app"
 
