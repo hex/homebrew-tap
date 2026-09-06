@@ -1,6 +1,6 @@
 cask "snip" do
-  version "2026.7.3"
-  sha256 "eb6eadd133faa377835d484e7092667360312edf054fd165351a022a1d8768c2"
+  version "2026.9.0"
+  sha256 "2f1943c9ae27c46074f0feafc2331d1059a305c10a95e5cdea17306a41842c98"
 
   url "https://github.com/hex/Snip/releases/download/v#{version}/Snip-#{version}.dmg",
       verified: "github.com/hex/Snip/"
