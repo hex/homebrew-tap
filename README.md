@@ -13,10 +13,12 @@ brew tap hex/tap
 | Name | Description |
 |------|-------------|
 | [helix](https://github.com/hex/Helix) | Native macOS menu bar app for managing mutagen file sync sessions |
+| [noter](https://github.com/hex/Noter) | Sticky notes at the edge of your Mac screen |
 | [stash](https://github.com/hex/Stash) | Lightweight macOS clipboard history manager |
 
 ```
 brew install --cask helix
+brew install --cask noter
 brew install --cask stash
 ```
 
