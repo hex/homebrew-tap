@@ -1,6 +1,6 @@
 cask "noter" do
-  version "2026.9.0"
-  sha256 "bb572056719277704f1c0fea28c7aa72122b1f62351fffa92c99450c2bae6524"
+  version "2026.9.1"
+  sha256 "6d2648da935a0229780026ea8cb779ad1ad53020a249c563384ed07f99a7b66d"
 
   url "https://github.com/hex/Noter/releases/download/v#{version}/Noter-#{version}.dmg",
       verified: "github.com/hex/Noter/"
