@@ -7,7 +7,7 @@ cask "helix" do
   desc "Native macOS menu bar app for managing mutagen file sync sessions"
   homepage "https://helix.hexul.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: "mutagen"
 
   app "Helix.app"
