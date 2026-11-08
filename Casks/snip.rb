@@ -4,8 +4,8 @@ cask "snip" do
 
   url "https://github.com/hex/Snip/releases/download/v#{version}/Snip-#{version}.dmg"
   name "Snip"
-  desc "Radial snippet menu for the macOS menu bar"
-  homepage "https://snip.hexul.com"
+  desc "Radial snippet menu for the menu bar"
+  homepage "https://snip.hexul.com/"
 
   auto_updates true
   depends_on macos: :sonoma

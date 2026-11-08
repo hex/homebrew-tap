@@ -27,7 +27,7 @@ class MirrorForPhotoshopServer < Formula
     # Create wrapper script
     (bin/"mirror-for-photoshop-server").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["oven-sh/bun/bun"].opt_bin}/bun" "#{libexec}/server.js" "$@"
+      exec "#{formula_opt_bin("oven-sh/bun/bun")}/bun" "#{libexec}/server.js" "$@"
     EOS
 
     # Short alias

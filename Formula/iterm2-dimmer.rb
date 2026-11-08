@@ -2,7 +2,6 @@
 # ABOUTME: Update version, url, and sha256 when cutting a new release.
 
 class Iterm2Dimmer < Formula
-  version "2026.3.4"
   desc "Dims TASKMASTER stop hook output in iTerm2"
   homepage "https://github.com/hex/iterm2-dimmer"
   url "https://github.com/hex/iterm2-dimmer/archive/refs/tags/2026.3.4.tar.gz"
@@ -45,13 +44,12 @@ class Iterm2Dimmer < Formula
     chmod 0755, bin/"iterm2-dimmer"
   end
 
-  def post_install
-    system bin/"iterm2-dimmer", "install"
-  end
-
   def caveats
     <<~EOS
-      Restart iTerm2 to activate the AutoLaunch daemon.
+      Finish the setup (creates the venv and symlinks the scripts into iTerm2):
+        iterm2-dimmer install
+
+      Then restart iTerm2 to activate the AutoLaunch daemon.
 
       To uninstall completely:
         iterm2-dimmer uninstall
