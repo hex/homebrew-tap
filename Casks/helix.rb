@@ -4,11 +4,11 @@ cask "helix" do
 
   url "https://github.com/hex/Helix/releases/download/v#{version}/Helix-#{version}.dmg"
   name "Helix"
-  desc "Native macOS menu bar app for managing mutagen file sync sessions"
-  homepage "https://helix.hexul.com"
+  desc "Menu bar app for managing mutagen file sync sessions"
+  homepage "https://helix.hexul.com/"
 
-  depends_on macos: :sonoma
   depends_on formula: "mutagen"
+  depends_on macos: :sonoma
 
   app "Helix.app"
 

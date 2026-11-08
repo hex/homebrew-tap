@@ -4,7 +4,7 @@ cask "noter" do
 
   url "https://github.com/hex/Noter/releases/download/v#{version}/Noter-#{version}.dmg"
   name "Noter"
-  desc "Sticky notes at the edge of your Mac screen"
+  desc "Sticky notes at the edge of your screen"
   homepage "https://github.com/hex/Noter"
 
   auto_updates true

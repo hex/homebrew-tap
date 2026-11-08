@@ -2,7 +2,6 @@
 # ABOUTME: Multi-platform binary distribution (macOS Intel/ARM, Linux).
 
 class Badger < Formula
-  version "2026.3.1"
   desc "Command-line tool that adds labels to your app icon"
   homepage "https://github.com/hex/badger"
   license "MIT"
@@ -34,6 +33,6 @@ class Badger < Formula
   end
 
   test do
-    system "#{bin}/badger", "--version"
+    system bin/"badger", "--version"
   end
 end
