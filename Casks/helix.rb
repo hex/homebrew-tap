@@ -1,6 +1,6 @@
 cask "helix" do
-  version "2026.11.0"
-  sha256 "8b0c39127f42256f1851c80fd8414191859eee39e103f1dbe2fead8f392df549"
+  version "2026.11.1"
+  sha256 "e2ca9f4bd53a7201daa29370b744e8c1db00f65b8df494425d4b3ec2c30e0889"
 
   url "https://github.com/hex/Helix/releases/download/v#{version}/Helix-#{version}.dmg"
   name "Helix"
